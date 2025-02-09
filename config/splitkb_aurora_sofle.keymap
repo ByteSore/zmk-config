@@ -23,9 +23,9 @@
 
 / {
     chosen {
-        zmk,backlight = &backlight;
+        zmk,backlight = &led_strip;
     };
-    
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
